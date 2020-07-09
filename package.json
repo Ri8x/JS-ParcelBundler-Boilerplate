@@ -22,7 +22,6 @@
     ]
   },
   "dependencies": {
-    "assemble": "^0.3.83",
     "axios": "^0.19.2"
   },
   "devDependencies": {
