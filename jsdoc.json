@@ -1,0 +1,39 @@
+{
+	"source": {
+		"include": ["src/"],
+		"includePattern": ".+\\.js(doc|x)?$",
+		"excludePattern": "(node_modules|docs|dist)"
+	},
+	"tags": {
+		"allowUnknownTags": true
+	},
+
+	"plugins": [
+		"plugins/markdown"
+	],
+	"templates": {
+		"logo": {
+			"url": "https://via.placeholder.com/150",
+			"width": "150px",
+			"height": "150px"
+		},
+		"css": [
+			"styles/custom.css"
+		],
+		"name": "JS-ParcelBundler Boilerplate",
+		"footerText": "Made with ❤️ by <a href='https://github.com/mrri8x/'><b>Mansoor Ahmed</b></a>",
+		"cleverLinks": false,
+		"monospaceLinks": false,
+		"default": {
+			"outputSourceFiles": true
+		}
+	},
+	"opts": {
+		"template": "node_modules/tui-jsdoc-template",
+		"encoding": "utf8",
+		"readme": "./README.md",
+		"destination": "./docs/",
+		"recurse": true,
+		"verbose": true
+	}
+}

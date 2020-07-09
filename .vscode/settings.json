@@ -1,0 +1,11 @@
+{
+    "prettier.tabWidth": 2,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "prettier.arrowParens": "always",
+    "editor.mouseWheelZoom": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
